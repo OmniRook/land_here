@@ -56,21 +56,27 @@ body {
 
 .hero-text h4{
     padding-top: 15px;
+    font-weight: lighter;
 }
 
 .search{
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     padding: 10px 0px;
+    gap: 5px;
 }
 
-/* SECTION TWO */
+/* SECTION TWO "quote section" */
 
 .section-two {
     background: #D8F2F2;
-    padding: 50px 100px;
+    padding: 50px;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1em;
 }
 
 .section-two .quote {
@@ -84,7 +90,8 @@ body {
 .section-two .author {
     color: #1f2937;
     font-weight: bold;
-    text-align: end;
+    position: absolute;
+    left: 75%;
 }
 
 /* FOOTER */
@@ -95,4 +102,9 @@ footer {
     font-size: 10px;
     padding: 5px;
     text-align: center;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 1em;
 }
